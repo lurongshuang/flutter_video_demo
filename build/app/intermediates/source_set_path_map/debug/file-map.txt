@@ -1,0 +1,15 @@
+com.example.flutter_video_demo.app-jetified-window-java-1.0.0-beta04-0 /Users/qqss/.gradle/caches/transforms-3/2f3de8bdb91d4449c8f0fbcac8f6d57a/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.flutter_video_demo.app-jetified-exoplayer-core-2.18.6-1 /Users/qqss/.gradle/caches/transforms-3/5869c9f2cd7206d22b160a05acedd17c/transformed/jetified-exoplayer-core-2.18.6/res
+com.example.flutter_video_demo.app-jetified-annotation-experimental-1.1.0-2 /Users/qqss/.gradle/caches/transforms-3/98378ee26dc33aa5b078ea475b3291ff/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.flutter_video_demo.app-jetified-window-1.0.0-beta04-3 /Users/qqss/.gradle/caches/transforms-3/d26541628c36c8491a121e0b2c63170f/transformed/jetified-window-1.0.0-beta04/res
+com.example.flutter_video_demo.app-core-1.7.0-4 /Users/qqss/.gradle/caches/transforms-3/d51d9b661455ede5f40618d57cbcf004/transformed/core-1.7.0/res
+com.example.flutter_video_demo.app-lifecycle-runtime-2.3.1-5 /Users/qqss/.gradle/caches/transforms-3/f7fe77927ac6159e46c8e75ad8d0b6ee/transformed/lifecycle-runtime-2.3.1/res
+com.example.flutter_video_demo.app-debug-6 /Users/qqss/Documents/qqss/androidStudioProject/flutter_video_demo/android/app/src/debug/res
+com.example.flutter_video_demo.app-main-7 /Users/qqss/Documents/qqss/androidStudioProject/flutter_video_demo/android/app/src/main/res
+com.example.flutter_video_demo.app-pngs-8 /Users/qqss/Documents/qqss/androidStudioProject/flutter_video_demo/build/app/generated/res/pngs/debug
+com.example.flutter_video_demo.app-resValues-9 /Users/qqss/Documents/qqss/androidStudioProject/flutter_video_demo/build/app/generated/res/resValues/debug
+com.example.flutter_video_demo.app-rs-10 /Users/qqss/Documents/qqss/androidStudioProject/flutter_video_demo/build/app/generated/res/rs/debug
+com.example.flutter_video_demo.app-mergeDebugResources-11 /Users/qqss/Documents/qqss/androidStudioProject/flutter_video_demo/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.flutter_video_demo.app-mergeDebugResources-12 /Users/qqss/Documents/qqss/androidStudioProject/flutter_video_demo/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.flutter_video_demo.app-merged_res-13 /Users/qqss/Documents/qqss/androidStudioProject/flutter_video_demo/build/app/intermediates/merged_res/debug
+com.example.flutter_video_demo.app-packaged_res-14 /Users/qqss/Documents/qqss/androidStudioProject/flutter_video_demo/build/video_player_android/intermediates/packaged_res/debug

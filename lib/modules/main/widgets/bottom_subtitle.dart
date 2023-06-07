@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_video_demo/constants/space/space.dart';
 import 'package:flutter_video_demo/constants/text_utils/text_utils.dart';
-import 'package:flutter_video_demo/modules/main/controller.dart';
+import 'package:flutter_video_demo/modules/main/widgets/tab_child/controller.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
 import 'package:get/get_state_manager/src/simple/get_view.dart';
 
 // Created by卢融霜
 // on 2023/6/1
 // Description：底部字幕
-class BottomSubtitle extends GetView<MainController> {
+class BottomSubtitle extends GetView<TabChildController> {
   const BottomSubtitle({Key? key}) : super(key: key);
 
   @override

@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_video_demo/constants/app_colors.dart';
 import 'package:flutter_video_demo/constants/text_utils/text_utils.dart';
+import 'package:flutter_video_demo/modules/main/bean/Captions.dart';
+import 'package:flutter_video_demo/modules/main/widgets/custom_page_view.dart';
 import 'package:flutter_video_demo/modules/main/widgets/my_photos.dart';
+import 'package:flutter_video_demo/modules/main/widgets/tab_child/index.dart';
 import 'package:get/get.dart';
 
 import 'index.dart';
@@ -91,7 +94,25 @@ class MainPage extends GetView<MainController> {
   ///构建 TabBarView
   Widget _buildTableViewWidget() {
     return TabBarView(
-      children: [const TabChild(), Container(color: Colors.grey)],
+      children: [Obx(() => widgetTabViewList()), Container(color: Colors.grey)],
     );
+  }
+
+  Widget widgetTabViewList() {
+    if (controller.state.captionsList.value.isEmpty) {
+      return Container();
+    }
+    return CustomPageView.builder(
+        controller: controller.pageController,
+        onPageChanged: controller.onPageChanged,
+        onPageEndChanged: controller.onPageEndChanged,
+        itemCount: controller.state.captionsList.value.length,
+        scrollDirection: Axis.vertical,
+        itemBuilder: (BuildContext context, int index) {
+          return TabChildPage(
+            controller.state.captionsList.value[index],
+            key: ObjectKey(controller.state.captionsList.value[index]),
+          );
+        });
   }
 }
